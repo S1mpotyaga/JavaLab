@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 
 @Data
-public class Organization implements Serializable {
+class Organization implements Serializable {
     private int id;
     private String name;
     private String fullName;
