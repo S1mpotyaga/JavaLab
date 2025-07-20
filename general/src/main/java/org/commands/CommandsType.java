@@ -18,7 +18,10 @@ public enum CommandsType {
     REMOVE_GREATER_KEY("remove_greater_key"),
     MIN_BY_MANUFACTURER("min_by_manufacturer"),
     MAX_BY_COORDINATES("max_by_coordinates"),
-    PRINT_FIELD_ASCENDING_PRICE("print_field_ascending_price");
+    PRINT_FIELD_ASCENDING_PRICE("print_field_ascending_price"),
+
+    ALL_DONE("all_done"),
+    ERROR("error");
 
     private String text;
 

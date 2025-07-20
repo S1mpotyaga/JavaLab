@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.lang.reflect.Field;
 
 @Data
-class Product implements Serializable, Comparable, CSVConvert {
+public class Product implements Serializable, Comparable, CSVConvert {
     private Long id;
     private String name;
     private Coordinates coordinates;

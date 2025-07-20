@@ -7,7 +7,7 @@ import java.io.Serializable;
 import static java.lang.Math.sqrt;
 
 @Data
-class Coordinates implements Serializable, Comparable, CSVConvert {
+public class Coordinates implements Serializable, Comparable, CSVConvert {
     private int x;
     private double y;
 

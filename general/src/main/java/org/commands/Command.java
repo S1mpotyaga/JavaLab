@@ -1,19 +1,18 @@
 package org.commands;
 
 import lombok.Getter;
+import lombok.ToString;
 import org.Message;
-import org.collectionClasses.CollectionHandler;
 
 @Getter
+@ToString
 public abstract class Command {
 
-    private CollectionHandler collectionHandler;
     private CommandsType commandsType;
     private String description;
     private boolean isOutput;
 
-    Command(CollectionHandler collectionHandler, CommandsType commandsType, String description, boolean isOutput) {
-        this.collectionHandler = collectionHandler;
+    Command(CommandsType commandsType, String description, boolean isOutput) {
         this.commandsType = commandsType;
         this.description = description;
         this.isOutput = isOutput;

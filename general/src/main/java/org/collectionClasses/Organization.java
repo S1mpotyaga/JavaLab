@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 
 @Data
-class Organization implements Serializable, Comparable, CSVConvert {
+public class Organization implements Serializable, Comparable, CSVConvert {
     private long id;
     private String name;
     private String fullName;
